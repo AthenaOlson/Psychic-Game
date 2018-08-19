@@ -20,3 +20,14 @@ img {
     border-color: rgb(198, 231, 12);
     border-width: 10px;
 }
+
+h3 {
+    font-size: 25px;
+    color: rgb(247, 4, 174);
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+    padding-bottom: 5px;
+}

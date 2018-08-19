@@ -5,34 +5,27 @@
 	<title>Psychic Game</title>
 </head>
 <body>
-    <!-- User has to make a choice 
-            choices are a-z; create a variable string array a-z
-    Computer has to make a choice
-            choices are a-z; copy the user variable string array and make it computer choice specific
-    Choices are captured
-    Choice are compared
-        Wins    losses  ties
-	Tallies are displayed  -->
+ 	<!-- link to fontawesome so I could change the type of font -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- link to my javascript file where my code is written -->
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<!-- link to my .css stylesheet -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-	<div id="greeting">
-		<h2>""</h2>
+
 	</div>
+	<!-- i copied this jpg from an online source and saved it in my images folder -->
 	<img src="assets/images/monster-children-psychic-1068x571.jpg" class:"auth-image" alt:"Psychic"></img>
 
+	<!-- this is the text that appears when the user first visits the browser. See how I changed the <h3> element on the inner html to read 'you can't beat the psychic' on the game.js file. -->
 	<div id="game">
 		<h1>Let's Play The Psychic Game!</h1>
-		<p>Guess what letter I'm thinking of! Press any letter on the keyboard to begin!</p>
+		<h3>Guess what letter I'm thinking of! Press any letter on the keyboard to begin!</h3>
 		<p>Wins:</p>
 		<p>Losses:</p>
 		<p>Guesses Left:</p>
 		<p>Your Guesses so far:</p>
 	</div>
-
-	
-
 
 </body>
 </html>
