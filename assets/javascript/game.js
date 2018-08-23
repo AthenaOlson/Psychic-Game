@@ -5,18 +5,18 @@ var d = new Date();
 
     if (time < 12) 
       {
-      greeting = ("<h2>Good Morning!</h2>");
+      greeting = ("Good Morning!");
       }
-    if (time > 12) 
+    if (time >= 12) 
       {
-      greeting = ("<h2>Good Afternoon!</h2>");
+      greeting = ("Good Afternoon!");
       }
-    if (time > 17) 
+    if (time >= 18) 
       {
-      greeting = ("<h2>Good Evening!</h2>");
+      greeting = ("Good Evening!");
       }
-      document.write(greeting);
-    
+    //   document.write(greeting);
+    alert(greeting);
     //   this is the code that makes my game work. lines 20-end.
 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
 
